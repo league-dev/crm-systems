@@ -2,7 +2,7 @@
 
 ## Overview
 
-This boilerplate combines the power of Laravel (PHP) for backend APIs and React (TypeScript) for a modern frontend, using Vite for fast development and hot module replacement.
+**Professional Laravel-based CRM System Template** — a comprehensive solution for customer relationship management that combines a powerful Laravel (PHP) backend with a modern React (TypeScript) frontend. Utilizing Vite ensures rapid development and instant hot module replacement. The system includes full functionality for managing sales, clients, deals, orders, and other business processes. Suitable for both internal use and building custom CRM solutions for clients.
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/venturedrake/laravel-crm.svg?style=flat-square)](https://packagist.org/packages/venturedrake/laravel-crm)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -11,10 +11,10 @@ This boilerplate combines the power of Laravel (PHP) for backend APIs and React 
 
 ## Use Cases
 
--   Use as a free CRM for your business or your clients
--   Build a custom CRM for your business or your clients
--   Use as an integrated CRM for your Laravel powered business (Saas, E-commerce, etc)
--   Use as a CRM for your Laravel development business
+-   Use as a free CRM for business or clients
+-   Build a custom CRM for business or clients
+-   Use as an integrated CRM for Laravel powered business (Saas, E-commerce, etc)
+-   Use as a CRM for Laravel development business
 -   Run a multi-tenant CRM Saas business
 
 ## Features
@@ -49,23 +49,13 @@ This boilerplate combines the power of Laravel (PHP) for backend APIs and React 
 -   **For MariaDB users**: 10.2.7 or higher
 -   **Laravel** 6.0 or higher
 
-## Live Demo
-
-[https://demo.laravelcrm.com/register](https://demo.laravelcrm.com/register)
-
-## Quick Start
-
-If you want to get up and running quickly with a complete Laravel CRM please go to the [laravel-crm-starter project](https://github.com/venturedrake/laravel-crm-starter).
-
-If you prefer to install Laravel CRM into your own Laravel application, please follow the installation steps below.
-
 ## Installation
 
 #### Step 1. Install a Laravel project if you don't have one already
 
 https://laravel.com/docs/installation
 
-#### Step 2. Make sure you have set up authentication in your project
+#### Step 2. Make sure you have set up authentication in project
 
 https://laravel.com/docs/authentication
 
@@ -155,7 +145,7 @@ class User extends Authenticatable implements HasLoginsAndDevicesInterface
 
 #### Step 9. Register at least one user and log in or if you already have a user login with the crm owner you set in step 5
 
-Access the crm to register/login at http://your-project-url/crm
+Access the crm to register/login at http:/-project-url/crm
 
 Note if you modified the route_prefix setting from the default the above url will change dependent on that setting.
 
@@ -214,35 +204,6 @@ php artisan migrate
 ```bash
 composer test
 ```
-
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Roadmap
-
--   Documents
--   Calendar
--   CSV Import / Export
--   SMS
--   Payments
-
-## Feedback
-
-Participate in the [discord community](https://discord.gg/rygVyyGSHj)
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email andrew@venturedrake.com instead of using the issue tracker.
-
-## Credits
-
--   [Andrew Drake](https://github.com/venturedrake)
--   [All Contributors](../../contributors)
 
 ## License
 
